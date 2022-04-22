@@ -21,7 +21,6 @@ function App() {
 console.log(error)
     }
   }, [])
-  console.log(data)
   return (
     <>
     <h1 className='text-Roboto'>Live Spaces</h1>
