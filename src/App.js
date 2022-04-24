@@ -84,7 +84,7 @@ function App() {
           <div className='container'>
           {!spin && <Spinner />}
           <div className='row w-100 '>
-        {data.slice(52,60).map((elem,index)=>{
+        {data.slice(52,65).map((elem,index)=>{
           return <Card key={index} url={elem.urlToImage} author={elem.author === null ? "Prince Jain " : elem.author.slice(0, 70)} desc={elem.description === null ? "hello " : elem.description.slice(0, 70)} title={elem.title === null ? "There is no title " : elem.title.slice(0, 50)} bt1={elem.source.name === null ? "Oops! 😑no info... " : elem.source.name.slice(0, 18)} />
         })}
           
