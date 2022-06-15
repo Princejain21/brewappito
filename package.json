@@ -1,5 +1,6 @@
 {
   "name": "brewapp",
+  "homepage":"https://princejain21.github.io/brewappito",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
